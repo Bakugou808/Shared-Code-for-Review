@@ -14,7 +14,6 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     coderay (1.1.2)
-    colorize (0.8.1)
     concurrent-ruby (1.1.6)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
@@ -57,7 +56,7 @@ GEM
     sqlite3 (1.4.2)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -68,7 +67,6 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 5.2)
-  colorize (~> 0.8.1)
   faker
   pry
   require_all
