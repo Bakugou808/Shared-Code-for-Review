@@ -15,8 +15,6 @@ GEM
     arel (9.0.0)
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
-    faker (2.11.0)
-      i18n (>= 1.6, < 2)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
@@ -26,7 +24,7 @@ GEM
     pry (0.13.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.2)
+    rack (2.2.6.2)
     rack-protection (2.0.8.1)
       rack
     rake (13.0.1)
@@ -51,7 +49,6 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 5.2)
-  faker (~> 2.10)
   pry
   rake
   require_all
